@@ -12,6 +12,9 @@ namespace CourseWebApi.Models
         public int AutoId { get; set; }
         public string CourseType { get; set; }
         public string SubCourse { get; set; }
-        
+
+        public string DepartmentLink { get; set; }
+
+
     }
 }
